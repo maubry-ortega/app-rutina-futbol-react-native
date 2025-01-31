@@ -23,6 +23,9 @@ declare module '*.ttf' {
     interface TextInputProps {
       className?: string;
     }
+
+    export const View: typeof import('react-native').View;
+    export const Text: typeof import('react-native').Text;
   }
   
   // Tipos globales de la aplicación
